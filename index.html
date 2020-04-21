@@ -199,7 +199,7 @@
         <table>
             <tr>
                 <td>
-                    <a href="https://laukeymwaura.github.io/MSKWEAD/"><img src="img/msq.png"></a>
+                    <a target="_blank" href="https://laukeymwaura.github.io/MSKWEAD/"><img src="img/msq.png"></a>
                 </td>
                 <td>
                 </td>
@@ -227,19 +227,41 @@
 
         <hr>
     </div>
-    <!-- 
+    <div class="container">
+        <div class="page-header">
+            <h2 class="abtHeader">Email Me</h2>
 
-    <div id="contact">
-        <a target='_blank' href="https://github.com/d-kahara"> <i class="fa fa-github " aria-hidden="true"></i></a>
-        <a target='_blank' href="https://www.linkedin.com/in/david-kahara-32a49514b/"><i class="fa fa-linkedin"
-          aria-hidden="true"></i></a>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <form action="mailto:devlaukeymwaura@gmail.com" method="post" enctype="text/plain">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="page-header">
+                    <h2 class="abtHeader">WhatsApp Me</h2>
+                    <a target="_blank" href="https://wa.me/254772789394">
+                        <p class="abtheader">Click Icon</p><img src="img/wa.png"></a> <br>
+
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <span class="footerName"> </span><br />
-        <i class="fa fa-phone"></i> (+254) 706 183 189 <br>
-        <i class="fa fa-envelope"></i> <a href="mailto:kaharadave.@gmail.com">kahardave@gmail.com</a>
-    </div> -->
 
 
 
@@ -264,7 +286,17 @@
 
     </div>
 
-
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us4.list-manage.com",
+                "uuid": "3b3e4f25fb1524f3b31e69cfb",
+                "lid": "177f97c227",
+                "uniqueMethods": true
+            })
+        })
+    </script>
 </body>
 
 </html>
