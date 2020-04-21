@@ -227,38 +227,49 @@
 
         <hr>
     </div>
+    <!-- contact section -->
     <div class="container">
         <div class="page-header">
-            <h2 class="abtHeader">Email Me</h2>
+            <h2 class="abtHeader">REACH ME</h2>
 
         </div>
         <div id="contact">
             <div class="container">
-                <form action="mailto:devlaukeymwaura@gmail.com" method="post" enctype="text/plain">
+                <form action="send_form_email" method="post" enctype="text/plain">
 
-                    <label for="fname">First Name</label>
+                    <label for="first_name">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name.." class="w3-black">
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="w3-black">
-                    </select>
+                    <label for="last_name"> Last Name</label>
+                    <input type="text" id="lname" name="firstname" placeholder="Your name.." class="w3-black">
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" class="w3-black"></textarea>
+                    <label for="email">Email Address</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your email.." class="w3-black"><br>
+                    </select><br>
 
-                    <input type="submit" value="Submit">
+                    <label for="telephone">Telephone Number</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your number.." class="w3-black"><br>
+                    </select><br>
+
+                    <label for="comments">Subject</label>
+                    <textarea id="subject" name="message" placeholder="Write something.." style="height:200px" class="w3-black"></textarea>
+
+                    <input type="submit" value="Submit"><a href="php.php">Email form</a>
 
                 </form>
             </div>
         </div>
         <div>
             <div class="container">
-                <div class="page-header">
-                    <h2 class="abtHeader">WhatsApp Me</h2>
-                    <a target="_blank" href="https://wa.me/254772789394">
-                        <p class="abtheader">Click Icon</p><img src="img/wa.png"></a> <br>
 
-                </div>
+                <h2 class="abtHeader" class="page-header">WhatsApp Me</h2>
+                <a target="_blank" href="https://wa.me/254772789394">
+                    <p class="abtheader">Click Icon</p><img src="img/wa.png"></a> <br>
+
+                <h2 class="abtHeader">Call Me On / Message</h2>
+                <img src="img/call.png">
+                <h2>+254772789394</h2>
+
             </div>
         </div>
     </div>
