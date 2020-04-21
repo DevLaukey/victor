@@ -236,27 +236,23 @@
         <div id="contact">
             <div class="container">
 
-                <form action="send_form_email" method="post" enctype="text/plain">
+                <form action="php.php" method="post" enctype="text/plain">
 
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="w3-black">
-
-                    <label for="last_name"> Last Name</label>
-                    <input type="text" id="lname" name="firstname" placeholder="Your name.." class="w3-black">
+                    <label for="first_name">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Your name.." class="w3-black">
 
                     <label for="email">Email Address</label><br>
                     <input type="text" id="email" name="email" placeholder="Your email.." class="w3-black"><br>
                     </select><br>
 
                     <label for="telephone">Telephone Number</label><br>
-                    <input type="text" id="email" name="email" placeholder="Your number.." class="w3-black"><br>
+                    <input type="text" id="email" name="phone" placeholder="Your number.." class="w3-black"><br>
                     </select><br>
 
                     <label for="comments">Subject</label>
-                    <textarea id="subject" name="message" placeholder="Write something.." style="height:200px" class="w3-black"></textarea>
+                    <textarea id="subject" name="msg" placeholder="Write something.." style="height:200px" class="w3-black"></textarea>
 
-                    <input type="submit" value="Submit">
-                    <a href="https://github.com/DevLaukey/victor/blob/master/php.php"></a>
+                    <input type="submit" name="submit" value="Send">
 
                 </form>
             </div>
